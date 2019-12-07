@@ -65,7 +65,7 @@ class AddFoods extends Component {
                 <input type="text" name="name" value={this.state.name} className='form-control' onChange={(e) => this.handleNameInput(e)} />
       
                 <label>Calories:</label>
-                <input type="text" name="calories" value={this.state.calories} className='form-control' onChange={(e) => this.handleCaloriesInput(e)} />
+                <input type="number" name="calories" value={this.state.calories} className='form-control' onChange={(e) => this.handleCaloriesInput(e)} />
 
                 <label >Image</label>
                 <input type="text" name="image" value={this.state.image} className='form-control' onChange={(e) => this.handleImageInput(e)} />
